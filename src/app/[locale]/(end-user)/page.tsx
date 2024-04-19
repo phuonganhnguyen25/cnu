@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getDictionary } from "../../../messages/setting";
+import { getDictionary } from "@/messages/setting";
 
 export default async function Home({
   params: { locale },
