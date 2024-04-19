@@ -1,0 +1,55 @@
+{
+  "Index": {
+    "title": "Xin trào tụi bây!"
+  },
+  "Common_Text": {
+    "Create": "Tạo",
+    "Update": "Cập nhật",
+    "Delete": "Xóa",
+    "Submit": "Gửi",
+    "Close": "Đóng",
+    "Created_At": "Được tạo lúc",
+    "Updated_At": "Được cập nhật lúc",
+    "Home": "Trang chủ"
+  },
+  "Dashboard": {
+    "Text": "Bảng điều khiển"
+  },
+  "Category": {
+    "Text": "Danh mục",
+    "List": "Danh sách danh mục",
+    "Sub": "Danh mục con",
+    "Create": "Tạo danh mục mới",
+    "Update": "Cập nhật danh mục",
+    "Delete": "Xóa danh mục",
+    "Label": {
+      "Name_EN": "Tên (Tiếng Anh)",
+      "Name_VI": "Tên (Tiếng Việt)",
+      "Parent": "Danh mục cha",
+      "Order": "Thứ tự"
+    },
+    "Placeholder": {
+      "Name_Input": "Vui lòng nhập tên danh mục...",
+      "Delete_Confirm": "Bạn có chắc chắn muốn xóa danh mục này không?",
+      "Delete_Confirm_Level_1": "Cảnh báo: Việc xóa danh mục này cũng sẽ xóa các danh mục con của nó."
+    },
+    "Error_Msg": {
+      "Min_Name_Str": "Tên phải chứa ít nhất 1 ký tự",
+      "Max_Name_Str": "Tên phải chứa tối đa 30 ký tự",
+      "Name_Invalid": "Tên không hợp lệ",
+      "Create": "Tạo danh mục không thành công",
+      "Update": "Cập nhật danh mục không thành công",
+      "Delete": "Xóa danh mục không thành công",
+      "Current_Position_Invalid": "Vị trí hiện tại không hợp lệ",
+      "Target_Position_Invalid": "Vị trí mục tiêu không hợp lệ",
+      "Change_Order": "Thay đổi thứ tự danh mục không thành công",
+      "Not_Found": "Danh mục không tồn tại"
+    },
+    "Success_Msg": {
+      "Create": "Tạo danh mục thành công",
+      "Update": "Cập nhật danh mục thành công",
+      "Delete": "Xóa danh mục thành công",
+      "Change_Order": "Thay đổi thứ tự danh mục thành công"
+    }
+  }
+}

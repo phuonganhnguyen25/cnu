@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: "Lato", sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,4 +31,31 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Keyframes for sliding animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Notification styles */
+.notification {
+  transition:  all 0.5s ease-in-out;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
 }
